@@ -1,0 +1,52 @@
+:root{
+  --dark-blue: #2c4355;
+  --darker: #212529;
+}
+
+.hero-img{
+  background-image: url(https://images.unsplash.com/photo-1565849904461-04a58ad377e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80);
+  height: 700px;
+  background-size: cover;
+}
+
+.box{
+  height: 200px;
+}
+
+.box:hover{
+  filter:drop-shadow(2px 2px 2px rgb(26, 26, 29));
+  box-shadow: 0px 0px 5px rgb(26, 26, 29);
+  cursor: pointer;
+  border-radius: 1em;
+  background-color: var(--dark-blue);
+}
+
+.btn{
+  background-color: white!important;
+}
+
+.btn:hover{
+  filter:drop-shadow(2px 2px 2px rgb(26, 26, 29));
+  box-shadow: 0px 0px 5px rgb(9, 9, 10);
+  cursor: pointer;
+  background-color: #9b9ca6!important;
+  color: white!important;
+}
+
+.bg-phone{
+  background: var(--dark-blue);
+}
+
+.bg-darker{
+  background-color: var(--darker);
+}
+
+.bg-dark-secondary{
+  background-color: #434146;
+}
+
+.hero-vid{
+  height: 400px;
+  background-size: contain;
+  margin: 1em;
+}
